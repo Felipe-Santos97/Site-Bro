@@ -1,0 +1,12 @@
+header h1{
+    margin-left: 800px;
+    font-size: 40px;
+    
+}
+
+section{
+     background-color: gray;
+      width: 600px;
+      height: 800px;
+      margin-left: 600px;
+}
