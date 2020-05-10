@@ -14,14 +14,15 @@ section{
       transform: translate(-50%);
 }
 .res{
-    width: 500px;
+    width: 200px;
     height: 30px;
     background: rgb(235, 235, 235);
     position: relative;
     top: 18%;
-    left: 13%;
+    left: 65%;
     text-align: right;
     line-height: 35px;
+    border-radius: 10px;
 }
 div label{
     background: none;
@@ -29,24 +30,26 @@ div label{
     font-size: 18px;
 }
 .operandos{
-        background: none;      
-        outline: none;
+       background: none;
         margin-top: 90px;
-        margin-left: 12px;    
+        
+           
 }
 input{
-    border: none;
-    border-bottom: 1px solid black;
+
     padding: 5px;
+    outline: none;
 }
 .btn-img{
     background: none;
     position: relative;
     top: 10%;
-    left: 10%;
+    left: 15%;
     
 }
-
+img{
+    margin-right: 120px;
+}
 
 input[type=number]::-webkit-inner-spin-button { 
     -webkit-appearance: none;
