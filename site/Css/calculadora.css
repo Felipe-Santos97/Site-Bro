@@ -1,7 +1,6 @@
 header h1{
     position: relative;
     left: 44%;
-    
     font-size: 40px;
     
 }
@@ -13,4 +12,48 @@ section{
       position: absolute;
       left: 50%;
       transform: translate(-50%);
+}
+.res{
+    width: 500px;
+    height: 30px;
+    background: rgb(235, 235, 235);
+    position: relative;
+    top: 18%;
+    left: 13%;
+    text-align: right;
+    line-height: 35px;
+}
+div label{
+    background: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+.operandos{
+        background: none;      
+        outline: none;
+        margin-top: 90px;
+        margin-left: 12px;    
+}
+input{
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 5px;
+}
+.btn-img{
+    background: none;
+    position: relative;
+    top: 10%;
+    left: 10%;
+    
+}
+
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
 }
