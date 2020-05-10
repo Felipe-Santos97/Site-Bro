@@ -12,7 +12,7 @@
     <header>
         <h1>Sign in</h1>
 
-        <form action="">
+        <form id="login">
             <label for="email">Email:</label>
             <input type="email" id="email" class="texto" required>
 
@@ -23,21 +23,21 @@
             <a href="#" id="esqueceu">Esqueceu a conta?</a></span>
         </form>       
     </header>
-    <section>
-         <h2>Criar uma conta</h2> 
-         <p>É rapido.</p>  
-         <form action="">
+    <section> 
+         <div id="cadastro">
+            <h2>Criar uma conta</h2> 
+            <p>É rapido.</p> 
                 <input type="text" id="nome" placeholder="Nome" required class="texto">
                 <input type="text" placeholder="Sobrenome" class="texto"><br>
-                <input type="email" id="email" placeholder="Email" class="texto"><br>
-                <input type="password" name="senha" id="" placeholder="Senha" class="texto"><br><br>
+                <input type="email" id="email-cad" placeholder="Email" class="texto"><br>
+                <input type="password" id="senha-cad" placeholder="Senha" class="texto"><br><br>
                 <p>Sexo:</p>
                 <label for="m">Masculino</label>
                 <input type="radio" name="sexo" id="m">  
                 <label for="f">Feminino</label>
                 <input type="radio" name="sexo" id="f"><br>
                 <input type="submit" value="Cadastre-se" class="btn" id="btn-cadastro">
-        </form>  
+        </div>  
     </section>
         <script src="login.js"></script>
     <footer>

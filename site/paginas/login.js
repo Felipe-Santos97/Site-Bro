@@ -1,22 +1,35 @@
-// PARTE DO LOGIN
-
-var email = document.querySelector('#email')
-var btn = document.querySelector('#btn-login')
-btn.addEventListener('click', login)
-
-function login(){  
-         window.alert('Usuario não encontrado, Faça o cadrastro !')
-    
-}
-
 
 // PARTE DO CADRASTRO
 
-var txt_nome = document.querySelector('#nome')
+// pegando os campos
+var mensagem = document.querySelector('#cadastro')
+var nome = document.querySelector('#nome')
+var senha_cadastro = document.querySelector('#senha-cad')
+var email_cadastro = document.querySelector('#email-cad')
 var btn_cadastro = document.querySelector('#btn-cadastro')
 
 btn_cadastro.addEventListener('click' , cadastrar)
 
 function cadastrar(){
-    window.alert(nome.value)
+        if(email_cadastro.value !== '' && nome.value !== '' && senha_cadastro.value !== ''){
+            mensagem.innerHTML = `<p>Obrigado <strong>${nome.value}</strong> por se cadastrar.</p>`
+        }else{
+            window.alert('Coloque seus dados !')
+      }
+}
+
+
+// PARTE DO LOGIN
+var msg_login = document.querySelector('#login')
+var email = document.querySelector('#email')
+var senha = document.querySelector('#senha')
+var btn = document.querySelector('#btn-login')
+btn.addEventListener('click', login)
+
+function login(){  
+        if(email.value !== '' && senha.value !== ''){
+            alert('logado')
+        }else{
+            alert('nao logado')
+        }
 }
