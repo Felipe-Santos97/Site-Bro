@@ -1,8 +1,7 @@
-header h1{
-    position: relative;
-    left: 44%;
-    font-size: 40px;
-    
+header {
+    font-size: 27px;
+    width: 100%;
+    text-align: center;
 }
 
 section{
@@ -13,16 +12,18 @@ section{
       left: 50%;
       transform: translate(-50%);
 }
-.res{
+#res{
     width: 200px;
-    height: 30px;
-    background: rgb(235, 235, 235);
+    height: 35px;
     position: relative;
     top: 18%;
     left: 65%;
     text-align: right;
     line-height: 35px;
-    border-radius: 10px;
+    border-radius: 8px;
+    background: rgb(255, 235, 205);
+    font-size: 20px;
+    font-weight: bold;
 }
 div label{
     background: none;
