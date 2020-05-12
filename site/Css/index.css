@@ -1,7 +1,7 @@
-
 header h2{
     display: inline-block;
-    margin-left: 25%;
+    position: relative;
+    left: 30%;
     background: none;
     color: blanchedalmond;
     font-size: 30px;
@@ -20,10 +20,10 @@ span{
     background: none;
     
 }
-
 aside{
-   margin-top: 150px;
    display: inline-block;
+   position: absolute;
+   top: 40%;
    
 }
 aside nav a{
@@ -40,6 +40,7 @@ aside nav a{
     color: black;
     margin-left: 5px;
     border-radius: 20px;   
+   
 }
 aside p{
     margin-top: 20px;
@@ -51,29 +52,26 @@ section{
     background-color: grey;
     position: absolute;
     top: 30%;
-    left: 25%;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 section h2{
        text-align: center; 
 }
-
-
 aside nav a:hover{
     transform: scale(1.1);
     box-shadow: 1px 1px 6px black;
 }
-
 audio{
     outline: none;
     margin-top: 5px;
 }
-
 p{
     margin-left: 5px;
 }
 #musicas{
     position: absolute;
-    left: 80%;
-    bottom: 50%;
+    left: 78%;
+    bottom: 39%;
 }

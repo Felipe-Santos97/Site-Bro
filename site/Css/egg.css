@@ -1,5 +1,6 @@
 header h1{
-   margin-left: 70px;
+   position: relative;
+   left: 31%;
 }
 
 section{
@@ -8,7 +9,7 @@ section{
     background-color: gray;
     position: absolute;
     left: 50%;
-    top: 25%;
+    top: 22%;
     transform: translate(-50%);
 }
 
@@ -19,11 +20,12 @@ h2{
 }
 
 img{
-    margin-left: 500px;
+    position: relative;
+    left: 27%;
 }
 
 video{
-    margin-top: 90px;
+    margin-top: 78px;
     margin-left: 150px;
     width: 500px;
     height: 400px;
@@ -32,7 +34,8 @@ video{
     outline: none;
 }
 p{
-    margin-top: 12px;
+    margin-top: 15px;
     background: none;
     font-size: 18px;
+    text-indent: 40px;
 }
