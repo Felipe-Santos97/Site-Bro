@@ -1,0 +1,14 @@
+header {
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+}
+section{
+    width: 600px;
+    height: 500px;
+    background: gray;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%);
+}
