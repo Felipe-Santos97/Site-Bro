@@ -1,10 +1,11 @@
 header h2{
     display: inline-block;
     position: relative;
-    left: 30%;
+    left: 29%;
     background: none;
     color: blanchedalmond;
     font-size: 30px;
+    font-size: 34px
 }
 span{
     background: none;

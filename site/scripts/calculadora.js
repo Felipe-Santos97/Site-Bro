@@ -33,7 +33,7 @@ function multiplicar(){
             alert('Faça uma conta menor !')
         }else{
         var res = document.getElementById('res')
-        var conta = (n1 * n2).toFixed(2)
+        var conta = (n1 * n2)
         res.innerHTML = conta
       }
     
