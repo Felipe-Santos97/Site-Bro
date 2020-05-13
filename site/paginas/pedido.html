@@ -12,9 +12,30 @@
         <h1>Marque um Pedido</h1>
     </header>
 
-    <section>
-        <label for="nome">Nome:</label>
-        <input type="text" id="nome">
+    <section id="sessao">     
+            <label for="nome" class="formulario">Digite seu nome:</label>
+            <input type="text" id="nome" class="formulario"><br>
+            <label for="endereco" class="formulario">Escolha o local do pedido:</label>
+
+            <select name="endereco" id="endereco">
+                <option value=""></option>
+                <option value="pedro">Casa do Pedro</option>
+            </select><br>
+            
+            <label for="comida" class="formulario">Esta afim de comer oque?</label>
+            <select name="" id="comida">
+                <option value=""></option>
+                <option value="">Pizza Renacer</option>
+                <option value="">Pizza Azurra</option>
+                <option value="">Esfirra</option>
+                <option value="">Hamburguer</option>
+                <option value="">Senhor das Pizzas</option>
+            </select><br>
+
+            <label for="hora" class="formulario">Digite uma hora pro Pedido:</label>
+            <input type="time" id="hora"> &nbsp;
+            <input type="submit" class="btn" value="Marcar pedido" id="marcar">          
     </section>
+    <script src="../scripts/pedido.js"></script>
 </body>
 </html>

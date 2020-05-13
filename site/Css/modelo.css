@@ -22,8 +22,10 @@ header h1{
     width: 120px;
     cursor: pointer;
     border-radius: 10px;
+    background-color: rgb(253, 229, 192);
+    border: none;
 }
-.reset-img{
+.reset-img, strong{
     background: none;
 }
 a{
@@ -37,4 +39,8 @@ a{
         height: 150px;
         background: gray;
     
+}
+.btn:hover{
+    transform: scale(1.09);
+    background-color: rgb(253, 229, 192);
 }
