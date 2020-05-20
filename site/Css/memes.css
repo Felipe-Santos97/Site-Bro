@@ -1,0 +1,60 @@
+header{
+    height: 200px;
+}
+#titulo{
+    width: 450px;
+    height: 200px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+section{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 900px;
+    /* height: 400px; */
+    background-color: gray;
+}
+h1{
+    text-align: center;
+    font-size: 29px;
+    color: rgb(255, 235, 205);
+   
+}
+h2{
+    margin-top: 50px;
+    background: none;
+    text-align: center;
+}
+p{
+    background: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+video, img{
+    height: 400px;
+    width: 450px;
+    margin-top: 25px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+#alex{
+    margin-top: 20px;  
+}
+#alex-p{
+    margin-top: 60px;
+}
+audio{
+    position: relative;  
+    top: 20px; 
+    left: 50%;
+    transform: translate(-50%);
+}
+ 
+
+
+
