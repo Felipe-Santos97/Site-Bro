@@ -1,6 +1,5 @@
 var txt1 = document.getElementById('n1')
 var txt2 = document.getElementById('n2')
-
 var btn_mais = document.getElementById('mais')
 var btn_vezes = document.getElementById('vezes')
 var btn_divisao = document.getElementById('divisao')
@@ -58,29 +57,3 @@ function dividir(){
         window.alert('digite um numero')
     }  
 }
-
-  
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

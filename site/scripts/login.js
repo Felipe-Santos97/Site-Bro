@@ -1,6 +1,4 @@
-
 // PARTE DO CADRASTRO
-
 // pegando os campos
 var mensagem = document.querySelector('#cadastro')
 var nome = document.querySelector('#nome')
@@ -17,8 +15,6 @@ function cadastrar(){
             window.alert('Coloque seus dados !')
       }
 }
-
-
 // PARTE DO LOGIN
 var msg_login = document.querySelector('#login')
 var email = document.querySelector('#email')
@@ -34,10 +30,8 @@ function login(){
                 mensagem.innerHTML = `<p><strong>Obrigado ${nome.value} por se cadastrar, o sistema ainda esta em produção <br> e futuramente seus dados serão salvos.</strong></p>`
              }else{
                  alert('Usuario não cadastrado !')
-             }
-            
+             }          
         }
-
         // ESQUECEU A CONTA
         var esqueceu_conta = document.getElementById('esqueceu')
         esqueceu_conta.addEventListener('click', msg_recuperar)
@@ -45,4 +39,3 @@ function login(){
         function msg_recuperar(){
             alert('Vishe, melhor fazer outra conta')
         }
-

@@ -20,8 +20,7 @@ section{
 h1{
     text-align: center;
     font-size: 29px;
-    color: rgb(255, 235, 205);
-   
+    color: rgb(255, 235, 205);  
 }
 h2{
     margin-top: 50px;
@@ -62,6 +61,3 @@ audio{
     transform: translate(-50%);
 }
  
-
-
-

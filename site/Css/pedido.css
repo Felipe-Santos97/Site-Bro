@@ -17,14 +17,12 @@ section{
     font-size: 20px;
     padding: 2px;
 }
-
 input{
     margin-top: 35px;
 }
 select{
     margin-top: 30px;
 }
-
 p{
     font-size: 20px;
     background: none;

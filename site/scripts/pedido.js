@@ -5,7 +5,6 @@ var resuldado = document.querySelector('#sessao')
 
 marcar.addEventListener('click', marcarPedido)
 
-
 function marcarPedido(){
     if(nome.value !== '' && hora.value !== ''){
         resuldado.innerHTML = `<p>O Pedido foi marcado <strong>${nome.value}</strong>.</p><br>`

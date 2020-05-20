@@ -2,7 +2,6 @@ header h1{
    position: relative;
    left: 31%;
 }
-
 section{
     width: 800px;
     height: 600px;
@@ -12,18 +11,15 @@ section{
     top: 22%;
     transform: translate(-50%);
 }
-
 h2{
     background: none;
     font-size: 28px;
     margin-left: 5px;
 }
-
 img{
     position: relative;
     left: 27%;
 }
-
 video{
     margin-top: 78px;
     margin-left: 150px;

@@ -3,7 +3,6 @@ header {
     width: 100%;
     text-align: center;
 }
-
 section{
      background-color: gray;
       width: 600px;
@@ -32,12 +31,9 @@ div label{
 }
 .operandos{
        background: none;
-        margin-top: 90px;
-        
-           
+        margin-top: 90px;             
 }
 input{
-
     padding: 5px;
     outline: none;
 }
@@ -45,20 +41,16 @@ input{
     background: none;
     position: relative;
     top: 10%;
-    left: 15%;
-    
+    left: 15%;   
 }
 img{
     margin-right: 120px;
     cursor: pointer;
 }
-
 input[type=number]::-webkit-inner-spin-button { 
-    -webkit-appearance: none;
-    
+    -webkit-appearance: none;   
 }
 input[type=number] { 
    -moz-appearance: textfield;
    appearance: textfield;
-
 }

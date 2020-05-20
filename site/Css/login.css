@@ -1,4 +1,3 @@
-
 header form{
     text-align: center;    
     position: relative;
@@ -11,17 +10,14 @@ header form input{
     border: none;
     padding: 5px;
 }
-
 label{
     background: none;
     font-size: 18px; 
     margin-left: 28px;   
 }
-
 .texto:hover{
     box-shadow: rgb(45, 160, 255) 1px 1px 6px;
 }
-
 .btn-login{
     margin-left: 19px;
     background-color: rgb(253, 229, 192);
@@ -38,9 +34,7 @@ label{
 section{
     position: absolute;
     left: 50%;
-    transform: translate(-50%);
-   
-    
+    transform: translate(-50%);    
 }
 section input{
     border: none;
@@ -59,16 +53,13 @@ section input{
     top: 25%;
     left: -7%;
 }
-
 #cadastro{
     margin-top: 30px;
 }
-
 p{
     font-size: 23px;
     background: none;
 }
-
 footer{
     position: absolute;
     top: 75%;
@@ -76,9 +67,6 @@ footer{
     height: 300px;
     background: gray;
 }
-
 header form p{
-    line-height: 250px;
-    
+    line-height: 250px;   
 }
-
