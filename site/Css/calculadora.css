@@ -50,6 +50,7 @@ input{
 }
 img{
     margin-right: 120px;
+    cursor: pointer;
 }
 
 input[type=number]::-webkit-inner-spin-button { 

@@ -30,7 +30,7 @@ aside nav a{
     display: block;
     background-color: antiquewhite;
     padding: 7px;
-    margin-top: 5px;
+    margin-top: 8px;
     width: 200px;
     text-decoration: none;
     text-align: center;
@@ -38,7 +38,7 @@ aside nav a{
     line-height: 40px;
     font-weight: bold;
     color: black;
-    margin-left: 5px;
+    margin-left: 20px;
     border-radius: 20px;   
    
 }
@@ -66,6 +66,7 @@ aside nav a:hover{
 audio{
     outline: none;
     margin-top: 5px;
+    margin-bottom: 20px;
 }
 p{
     margin-left: 5px;
@@ -73,5 +74,5 @@ p{
 #musicas{
     position: absolute;
     left: 78%;
-    bottom: 39%;
+    bottom: 18%;
 }
