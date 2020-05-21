@@ -69,7 +69,7 @@ p{
 }
 #musicas{
     position: absolute;
-    left: 79%;
+    left: 76%;
     bottom: 18%;
 }
 .foto-container{
@@ -141,19 +141,19 @@ section{
         height: 110px;
     }
       #musicas{
-        bottom: -14%;
+        bottom: -25%;
     }
     .foto-container{
         width: 150px;
         height: 160px;
-        margin-left: 35px;
+        margin-left: 40px;
      }
      .foto{
         width: 150px;
         height: 150px;
      }
      footer{
-         top: 122%;
+         top: 140%;
      }
      header h2{
          left: 24%;
