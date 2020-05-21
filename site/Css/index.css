@@ -127,3 +127,8 @@ section{
      top: 115%;
  }
 }   /* media */ 
+@media screen and (max-height:600px){
+
+
+
+}
