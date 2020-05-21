@@ -124,12 +124,22 @@ section{
  footer{
      top: 115%;
  }
+ header h2{
+    left: 24%;
+}
+
 }   /* media */ 
 @media screen and (min-height:400px) and (max-height:750px){
     section{
         top: 25%;
         width: 610px;       
       }
+      header{
+        height: 120px;
+    }   
+    #guizao{
+        height: 110px;
+    }
       #musicas{
         bottom: -14%;
     }
@@ -144,6 +154,9 @@ section{
      }
      footer{
          top: 122%;
+     }
+     header h2{
+         left: 24%;
      }
      
 }
