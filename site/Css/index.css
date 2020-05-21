@@ -107,7 +107,7 @@ header{
     height: 110px;
 }
 #musicas{
-    bottom: 10%;
+    bottom: 6%;
 }
 section{
    top: 18%;
@@ -131,7 +131,7 @@ section{
         width: 610px;       
       }
       #musicas{
-        bottom: -12%;
+        bottom: -14%;
     }
     .foto-container{
         width: 150px;
