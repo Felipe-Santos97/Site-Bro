@@ -1,2 +1,2 @@
-Site simples de teste, usando **HTML** **CSS** e **JavaScript**
+Site  de teste usando **HTML**, **CSS** e **JavaScript**
  
