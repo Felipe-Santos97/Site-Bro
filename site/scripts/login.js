@@ -28,6 +28,7 @@ function login(){
         }else if(email_cadastro.value == email.value && senha_cadastro.value == senha.value){
                 msg_login.innerHTML = `<p>Conta logada com sucesso !</p>` 
                 mensagem.innerHTML = `<p><strong>Obrigado ${nome.value} por se cadastrar, o sistema ainda esta em produção <br> e futuramente seus dados serão salvos.</strong></p>`
+                esqueceu_conta.innerHTML = ''
              }else{
                  alert('Usuario não cadastrado !')
              }          

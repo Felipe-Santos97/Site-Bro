@@ -98,7 +98,7 @@ footer{
     line-height: 100px;
 }
 /* // RESPONSIVO */
-@media screen and (max-height:900px){
+@media screen and (min-height:751px) and (max-height:900px){
 
 header{
     height: 120px;
@@ -107,9 +107,7 @@ header{
     height: 110px;
 }
 #musicas{
-    position: absolute;
-    left: 78%;
-    bottom: 15%;
+    bottom: 10%;
 }
 section{
    top: 18%;
@@ -127,8 +125,25 @@ section{
      top: 115%;
  }
 }   /* media */ 
-@media screen and (max-height:600px){
-
-
-
+@media screen and (min-height:400px) and (max-height:750px){
+    section{
+        top: 25%;
+        width: 610px;       
+      }
+      #musicas{
+        bottom: -12%;
+    }
+    .foto-container{
+        width: 150px;
+        height: 160px;
+        margin-left: 35px;
+     }
+     .foto{
+        width: 150px;
+        height: 150px;
+     }
+     footer{
+         top: 122%;
+     }
+     
 }
