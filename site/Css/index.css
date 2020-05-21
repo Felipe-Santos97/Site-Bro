@@ -92,13 +92,13 @@ footer{
     height: 100px;
     background: grey;
     position: absolute;
-    top: 105%;
+    top: 110%;
     text-align: center;
     font-weight: bold;
     line-height: 100px;
 }
 /* // RESPONSIVO */
-@media screen and (min-height:701px) and (max-height:800px){
+@media screen and (min-height:731px) and (max-height:850px){
 
 header{
     height: 120px;
@@ -122,14 +122,14 @@ section{
     height: 160px;
  }
  footer{
-     top: 115%;
+     top: 110%;
  }
  header h2{
     left: 24%;
 }
 
 }   /* media */ 
-@media screen and (min-height:400px) and (max-height:700px){
+@media screen and (min-height:400px) and (max-height:730px){
     section{
         top: 25%;
         width: 610px;       
