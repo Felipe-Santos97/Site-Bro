@@ -69,8 +69,8 @@ p{
 }
 #musicas{
     position: absolute;
-    left: 76%;
-    bottom: 18%;
+    left: 78%;
+    bottom: 10%;
 }
 .foto-container{
     width: 200px;
@@ -98,7 +98,7 @@ footer{
     line-height: 100px;
 }
 /* // RESPONSIVO */
-@media screen and (min-height:751px) and (max-height:900px){
+@media screen and (min-height:701px) and (max-height:800px){
 
 header{
     height: 120px;
@@ -129,7 +129,7 @@ section{
 }
 
 }   /* media */ 
-@media screen and (min-height:400px) and (max-height:750px){
+@media screen and (min-height:400px) and (max-height:700px){
     section{
         top: 25%;
         width: 610px;       
@@ -141,7 +141,7 @@ section{
         height: 110px;
     }
       #musicas{
-        bottom: -25%;
+        bottom: -20%;
     }
     .foto-container{
         width: 150px;
