@@ -1,12 +1,3 @@
-/* header h2{
-    display: inline-block;
-    position: relative;
-    left: 27%;
-    background: none;
-    color: blanchedalmond;
-    font-size: 30px;
-    font-size: 34px
-} */
 span{
     background: none;
     color: #69E781
@@ -45,7 +36,7 @@ aside p{
     font-size: 20px;
 }
 section{
-    width: 730px;
+    width: 690px;
     background-color: grey;
     position: absolute;
     top: 20%;
@@ -73,15 +64,15 @@ p{
     bottom: 10%;
 }
 .foto-container{
-    width: 200px;
-    height: 210px;
+    width: 170px;
+    height: 180px;
     display: inline-block;
-    margin-left: 30px;
+    margin-left: 40px;
     margin-top: 12px;
 }
 .foto{
-    width: 200px;
-    height: 200px;
+    width: 170px;
+    height: 170px;
 }
 figcaption{
     text-align: center;
@@ -98,61 +89,70 @@ footer{
     line-height: 100px;
 }
 /* // RESPONSIVO */
-@media screen and (min-height:731px) and (max-height:850px){
+@media screen and (min-height:762px) and (max-height:850px){
 
-header{
-    height: 120px;
-}   
-#guizao{
-    height: 110px;
-}
-#musicas{
-    bottom: 6%;
-}
-section{
-   top: 18%;
-   width: 630px;
- }
- .foto-container{
-    width: 170px;
-    height: 170px;
- }
- .foto{
-    width: 170px;
-    height: 160px;
- }
- footer{
-     top: 110%;
- }
-
-
-}   /* media */ 
-@media screen and (min-height:400px) and (max-height:730px){
-    section{
-        top: 25%;
-        width: 610px;       
-      }
-      header{
-        height: 120px;
-    }   
+    header{
+        height: 130px;
+    }
     #guizao{
-        height: 110px;
+        height: 120px;         
     }
-      #musicas{
-        bottom: -20%;
-    }
+    #musicas{
+        bottom: 5%;
+        left: 75%;
+    }  
     .foto-container{
-        width: 150px;
-        height: 160px;
-        margin-left: 40px;
-     }
-     .foto{
-        width: 150px;
+        width: 130px;
         height: 150px;
-     }
-     footer{
-         top: 140%;
-     }
-   
-     
+    }
+    .foto{
+        width: 130px;
+        height: 140px;
+    }
+
+    section{
+        width: 550px;
+        top: 22%;
+    }
+    audio{
+        width: 250px;
+        height: 50px;
+        margin-top: 3px;
+        margin-bottom: 15px;
+    }
+
 }
+@media screen and (max-height:761px){
+    header{
+        height: 120px;
+    }
+    #guizao{
+        height: 118px;         
+    }
+    #musicas{
+        bottom: 3%;
+        left: 72%;
+    } 
+    .foto-container{
+        width: 115px;
+        height: 120px;
+        margin-left: 35px;
+    }
+    .foto{
+        width: 115px;
+        height: 115px;
+    }
+    section{
+        width: 500px;
+        top: 20%;
+        left: 48%;
+    }
+    audio{
+        width: 240px;
+        height: 45px;
+        margin-top: 3px;
+        margin-bottom: 15px;
+    }
+
+}
+
