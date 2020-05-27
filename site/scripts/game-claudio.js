@@ -54,11 +54,3 @@ function jogarDnovo(){
     iniciar();
     movimentar();
 }
-
-
-
-
-
-
-
-      
