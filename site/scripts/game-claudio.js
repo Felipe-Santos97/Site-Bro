@@ -17,16 +17,16 @@ playAgain.addEventListener('click', jogarDnovo)
         claudio = document.getElementById('claudio');
         claudio.style.display ="block";
         claudio.addEventListener('click', calcularClicks);
-        frame = setInterval(movimentar, 700);
+        frame = setInterval(movimentar, 600);
         contole = 1;
     }
  }
 
 function movimentar(){
     claudio.style.left = Math.random() * 1100 + "px";
-    claudio.style.top = Math.random() * 500 + "px"; 
+    claudio.style.top = Math.random() * 480 + "px"; 
     tempo++;
-    if(tempo == 10){
+    if(tempo == 20){
         clearInterval(frame);     
         claudio.style.display = "none";
         msg.innerHTML = `<span>Voce fez ${cliks} pontos.</span><br><br>`;
@@ -48,6 +48,7 @@ function calcularClicks(){
 } 
 
 function jogarDnovo(){
+    cliks = 0;
     contole = 0;
     tempo = 0;
     iniciar();
