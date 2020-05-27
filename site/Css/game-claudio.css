@@ -21,12 +21,19 @@ img{
     position: relative;
     outline: none;
 }
+button{
+    display: none;
+    position: relative;
+    top: 15px;
+    left: 44%;
+    /* transform: translate(-50%); */
+}
 p{
     background: none;
     font-size: 20px;
     text-align: center;
 }
 span{
-    color: rgb(255, 235, 204)   ;
+    color: rgb(248, 235, 215)   ;
     background: none;
 }
