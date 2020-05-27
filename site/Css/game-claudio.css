@@ -1,0 +1,32 @@
+header{
+    text-align: center;
+    height: 120px;
+}
+
+section{
+    width: 1200px;
+    height: 600px;
+    background: grey;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%);
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    background: none;
+    display: none;
+    position: relative;
+    outline: none;
+}
+p{
+    background: none;
+    font-size: 20px;
+    text-align: center;
+}
+span{
+    color: rgb(255, 235, 204)   ;
+    background: none;
+}
