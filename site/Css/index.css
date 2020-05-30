@@ -5,11 +5,18 @@ span{
 #gun{
     width: 80px;
 }
-#guizao{
+#fotos{
     float: right;
     width: 100px;
     height: 140px;
     background: none;   
+    margin-right: 5px;
+}
+.foto-fig{
+    width: 100px;
+    height: 140px;
+    background: none;
+    display: none;
 }
 aside{
    display: inline-block;
@@ -94,8 +101,11 @@ footer{
     header{
         height: 130px;
     }
-    #guizao{
+    #fotos{
         height: 120px;         
+    }
+    .foto-fig{
+        height: 120px; 
     }
     #musicas{
         bottom: 5%;
@@ -125,8 +135,11 @@ footer{
     header{
         height: 120px;
     }
-    #guizao{
+    #fotos{
         height: 118px;         
+    }
+    .foto-fig{
+        height: 118px; 
     }
     #musicas{
         bottom: 3%;
