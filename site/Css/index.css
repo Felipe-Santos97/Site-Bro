@@ -21,7 +21,7 @@ span{
 aside{
    display: inline-block;
    position: absolute;
-   top: 40%; 
+   top: 35%; 
 }
 aside nav a{
     display: block;
@@ -37,6 +37,13 @@ aside nav a{
     color: black;
     margin-left: 20px;
     border-radius: 20px;     
+}
+.jogos{
+    margin-left: 80px;
+    background-color: rgb(255, 221, 176);
+    border: 1px solid;
+    width: 150px;
+    display: none;
 }
 aside p{
     margin-top: 20px;

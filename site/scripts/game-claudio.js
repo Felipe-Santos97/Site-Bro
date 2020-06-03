@@ -33,10 +33,10 @@ function movimentar(){
 
         if(cliks == 0){
             msg.innerHTML += '<strong> Game over, vc não tem odio do Claudio</strong>';
-        }else if(cliks <= 400){
+        }else if(cliks <= 500){
             msg.innerHTML += '<strong>Seu odio pelo Claudio esta aumentando, Continue assim</strong>';
-        }else if(cliks > 400){
-            msg.innerHTML += '<strong>Muito bem, vc odeia o claudio no fundo do seu corção</strong>';
+        }else if(cliks > 500){
+            msg.innerHTML += '<em>Muito bem, vc odeia o claudio no fundo do seu corção</em>';
         }  
         playAgain.style.display = "block";        
     } // FIM do tempo do jogo

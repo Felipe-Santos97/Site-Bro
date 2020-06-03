@@ -36,6 +36,10 @@ span{
     color: rgb(248, 235, 215)   ;
     background: none;
 }
+em{ 
+     background: none;
+     color: rgb(39, 248, 78)  
+}
 ::selection{
     background: none; 
 }
